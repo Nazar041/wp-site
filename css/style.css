@@ -356,7 +356,7 @@ body {
 }
 
 header#header {
-    background-color: #14171A;
+    background-image: url(../images/ava7.png);
     font-size: 0;
     margin-bottom: 50px;
 }
@@ -533,4 +533,11 @@ a:visited {
 ::-webkit-scrollbar-thumb   {
   background-color: #4f5b66;
   border-radius: 100px;
+}
+
+/*Scroll bar for firefox*/
+html {
+overflow-y: scroll;
+scrollbar-color:  #4f5b66 #212121;
+scrollbar-width: thin;
 }
